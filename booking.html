@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tented Lodge | Reservations</title>
+  <meta name="description" content="reservations page">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicons//favicon-16x16.png">
+  <link rel="manifest" href="./favicons/site.webmanifest">
+  <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+  <header> <!--Header of the page including nav bar and the hamburger menu-->
+    <nav>
+        <input id="navbar-btn" type="checkbox">
+        <section class="logo">
+            <a href="./index.html"><img src="./White Screenshot_2023-08-05_at_7.16.04_PM-removebg-preview 2.png" alt="tented lodge logo"></a>
+        </section>
+        <ul class="links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Our Branches.html">Our Universe</a></li>
+            <li><a href="./Dining.html">Dining</a></li>
+            <li><a href="./Adventures.html">Odysseys</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li  class="hadfun"><a href="./booking.html">Reservations</a></li>
+            <li><a href="./Contact US.html">Contact Us</a></li>
+        </ul>
+        <label for="navbar-btn" class="ham-menu">
+            <section class="line"></section>
+            <section class="line"></section>
+            <section class="line"></section>
+        </label>
+    </nav>
+    <section class="container"> <!--background image and the animated text-->
+      <h3 class="nav-animation">Reserve Online</h3>
+        <img src="./dining-gallery.jpg" alt="a couple dinning on the beach in the tented lodge">
+    </section>
+</header>
+<section class="booking-form">
+      <!--start of the Form -->
+      <section class="form">
+          <h3>Reserve Your Table in the Paradise Today</h3>
+          <form class="booking-form">
+              <section class="reserve-form">
+                  <section class="row50">
+                      <section class="data-box">
+                          <span>First Name</span>
+                          <input type="text" placeholder="First Name" required>
+                      </section>
+                      <section class="data-box">
+                          <span>Last Name</span>
+                          <input type="text" placeholder="Last Name" required>
+                      </section>                            
+                  </section>
+                  <section class="row50">
+                      <section class="data-box">
+                          <span>Email</span>
+                          <input type="email" placeholder="johndoe@email.com" required>
+                      </section>
+                      <section class="data-box">
+                          <span>Contact Number</span>
+                          <input type="number" placeholder="+94 -- --- ----" required>
+                      </section>
+                  </section>
+                  
+                  <section class="row50">    
+                      <section class="data-box">
+                          <span>Adults</span>
+                          <input type="number" placeholder="1">
+                      </section>
+                      <section class="data-box">
+                          <span>Kids</span>
+                          <input type="number" placeholder="1">
+                      </section>
+                  </section>
+                  <section class="row50">    
+                      <section class="data-box">
+                          <span>Arrival</span>
+                          <input type="date" >
+                      </section>
+                      <section class="data-box">
+                          <span>Depature</span>
+                          <input type="date" >
+                      </section>
+                  </section>
+                  <section class="row50">    
+                      <section class="data-box">
+                          <span>Suite</span>
+                         <select name="rooms" id="rooms">
+                          <option value="">Select your suite</option>
+                         <option value="rooms">Presedential</option>
+                         <option value="rooms">Executive</option>
+                         <option value="rooms">Deluxe</option>
+                         </select>
+                      </section>
+                      <section class="data-box">
+                          <span>Number of rooms</span>
+                          <input type="number" placeholder="Number of rooms">
+                      </section>
+                  </section>
+                  <section class="row50">    
+                      <section class="data-box">
+                          <span>Adventures</span>
+                          <select name="adventure" id="adventure">
+                              <option value="">Select an Adventures package</option>
+                             <option value="adventure">All in one</option>
+                             <option value="adventure">Game drive and Bundala bird watching</option>
+                             <option value="adventure">Game drive and Elepahnt adeventure</option>
+                             <option value="adventure">Yala Safari</option>
+                          </select>
+                      </section>
+                      <section class="data-box">
+                        <span>Branch</span>
+                        <select name="branch" id="branch">
+                            <option value="">Select a branch</option>
+                           <option value="branch">Tented Lodge, Yala</option>
+                           <option value="branch">Ahu Bay, Ahungalla</option>
+                           <option value="branch">Ceylon Tea Trails, Hatton</option>
+                           <option value="branch">Cape Weligama, Weligama</option>
+                        </select>
+                    </section>
+                  </section>
+
+                  <section class="row100">
+                      <section class="data-box">
+                          <span>Additional Requirements</span>
+                          <textarea placeholder="Please mention any other requirements that has to be arranged"></textarea>
+                      </section>
+                  </section>
+                  <section class="row100">
+                      <section class="data-box">
+                          <input type="submit" value="Send">
+                      </section>
+                  </section>
+              </section>
+          </form> <!--end of the form-->
+      </section>
+</body>
+</html>
